@@ -17,7 +17,7 @@ Write a program to convert P-sequence of a well-formed string to the W-sequence 
 
 ## 解题思路
 
-水题。。。怎么这么多，就是判断括号的问题，最开始想到的是用堆栈实现，但是其实没有必要。
+水题。。。怎么这么多，就是判断括号的问题，最开始想到的是用栈实现，但是其实没有必要。
 
 在discuss中看到一个精简版的，分析了一下思路：
 
