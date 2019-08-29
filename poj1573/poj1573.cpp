@@ -21,7 +21,7 @@ int main(void) {
         int columns_tr = entry;
         int steps = 0;
         int flag = 0;
-        do{
+        while(rows_tr>0 && rows_tr<=rows && columns_tr>0 && columns_tr<=columns){
             if(map[rows_tr-1][columns_tr-1]==0) map[rows_tr-1][columns_tr-1] = steps+1;
             else{
                 flag = 1;
@@ -34,7 +34,7 @@ int main(void) {
                 case 'E': columns_tr++; break;
                 case 'W': columns_tr--; break;
             }
-        }while(rows_tr>0 && rows_tr<=rows && columns_tr>0 && columns_tr<=columns);
+        }
 
         if(flag==1){
             cout << map[rows_tr-1][columns_tr-1]-1 << " step(s) before a loop of " << steps-map[rows_tr-1][columns_tr-1]+1 <<" step(s)"<< endl;
