@@ -18,7 +18,7 @@ You are to write a program that determines how long it takes a robot to get out 
 ## 解题思路
 
 比较简单的模拟题，主要考虑好边界判断和map数组的读取之间的矛盾。do_while和while基本上一样，主要是移动后不要立即取数组，可能会越界，可以等到下一次循环判断之后再取。
-'''
+```c++
         while(rows_tr>0 && rows_tr<=rows && columns_tr>0 && columns_tr<=columns){
             if(map[rows_tr-1][columns_tr-1]==0) map[rows_tr-1][columns_tr-1] = steps+1;
             else{
@@ -26,5 +26,5 @@ You are to write a program that determines how long it takes a robot to get out 
                 break;
             }
             steps = map[rows_tr-1][columns_tr-1];
-'''
+```
 另外就是c++数组vector等等的初始化还不太熟练，浪费了一些时间。
