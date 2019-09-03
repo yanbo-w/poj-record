@@ -28,8 +28,8 @@
 ## 图的深度优先遍历和广度优先遍历. 
 
 ## 最短路径算法(dijkstra,bellman-ford,floyd,heap+dijkstra) 
-- [ ] poj1860
-- [ ] poj3259
+- [x] poj1860
+- [x] poj3259
 - [ ] poj1062
 - [ ] poj2253
 - [ ] poj1125
