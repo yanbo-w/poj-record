@@ -30,7 +30,7 @@
 ## 最短路径算法(dijkstra,bellman-ford,floyd,heap+dijkstra) 
 - [x] poj1860
 - [x] poj3259
-- [ ] poj1062
+- [x] poj1062
 - [ ] poj2253
 - [ ] poj1125
 - [ ] poj2240
