@@ -32,7 +32,7 @@
 - [x] poj3259
 - [x] poj1062
 - [x] poj2253
-- [ ] poj1125
+- [x] poj1125
 - [ ] poj2240
 
 ## 最小生成树算法(prim,kruskal) 
