@@ -22,3 +22,17 @@ Fortunately, Bessie has a powerful weapon that can vaporize all the asteroids in
 DFS写法就比较简单了，循环判断。
 
 此外，最好不要用char，容易出问题，不明白，memset最好只用作初始化0。
+
+##  二分图性质
+
+二分图有两个定理：最小覆盖数=最大匹配数、最大独立集=总数-最小覆盖集 。
+
+几个基本定义：
+
+最小覆盖：即在所有顶点中选择最少的顶点来覆盖所有的边。
+
+最大匹配：二分图左右两个点集中，选择有边相连的两个匹配成一对（每个点只能匹配一次），所能达到的最大匹配数。
+
+最大独立集：集合中的任何两个点都不直接相连。
+
+[最小覆盖数=最大匹配数证明：](https://blog.csdn.net/Techmonster/article/details/50011363)
