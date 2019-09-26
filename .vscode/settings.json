@@ -4,6 +4,12 @@
         "ostream": "cpp",
         "*.tcc": "cpp",
         "string": "cpp",
-        "istream": "cpp"
+        "istream": "cpp",
+        "vector": "cpp",
+        "memory": "cpp",
+        "optional": "cpp",
+        "string_view": "cpp",
+        "system_error": "cpp",
+        "sstream": "cpp"
     }
 }

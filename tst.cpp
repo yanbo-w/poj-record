@@ -5,23 +5,37 @@
 
 using namespace std;
 
+
+
 void tst(char *str){
-    cout << "...." << int(&str) << endl;
-    cout << "...." << str[0] << endl;
+    cout << "...." << int(str) << endl;
+    str++;
+    *str = 'a';
 }
 
 int main(){
     char tmp1[5] = "abcd";
-    char tmp2[] = "abcd";
+    char tmp2[] = "abcdedf";
     char *tmp3;
     tmp3 = tmp1;
     char *tmp4;
-    strcpy(tmp1, tmp4);
+    tmp4 = new char[5];
+    strcpy(tmp4,tmp1);
 
+    cout << "-------------------------" << endl;
     tst(tmp1);
-    tst(tmp2);
-    tst(tmp3);
-    tst(tmp4);
+    cout << int(&tmp1) << " "<< tmp1 << endl;
+    cout << "-------------------------" << endl;
 
-    cout << cin.getline(tmp1, 5) << endl;
+    tst(tmp2);
+    cout << int(&tmp2) << " "<< tmp2 << endl;
+    cout << "-------------------------" << endl;
+
+    tst(tmp3);
+    cout << int(&tmp3) << " "<< tmp3 << endl;
+    cout << "-------------------------" << endl;
+
+    tst(tmp4);
+    cout << int(&tmp4) << " "<< tmp4 << endl;
+    cout << "-------------------------" << endl;
 }
