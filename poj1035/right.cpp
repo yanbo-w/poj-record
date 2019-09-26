@@ -53,6 +53,7 @@ return true;
 int main()
 {
 	freopen("data.in","r",stdin);
+    freopen("data.out", "w", stdout);
 
  Dp=0;
  while(scanf("%s",D[Dp++])&&strcmp(D[Dp-1],"#")!=0)
