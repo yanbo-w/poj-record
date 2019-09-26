@@ -4,7 +4,6 @@
         "ostream": "cpp",
         "*.tcc": "cpp",
         "string": "cpp",
-        "stack": "cpp"
-    },
-    "C_Cpp.errorSquiggles": "Disabled"
+        "istream": "cpp"
+    }
 }
