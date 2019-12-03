@@ -10,6 +10,8 @@
         "optional": "cpp",
         "string_view": "cpp",
         "system_error": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "deque": "cpp",
+        "list": "cpp"
     }
 }
